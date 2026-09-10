@@ -360,7 +360,10 @@ function RateCard() {
       <header className="hero">
         <div className="wrap">
           <p className="kicker">Rate card — 2026</p>
-          <h1 className="name">Wesley Wes Creates</h1>
+          <h1 className="name">
+            Wesley Wes <br />
+            <em>Creates.</em>
+          </h1>
           <p className="tagline">
             Podcast production and social media management for people who have something
             worth saying, and want it to sound and look like it.
@@ -387,11 +390,11 @@ function RateCard() {
                   <span>Save a screenshot as</span>
                   <span>images/work-podcast.jpg</span>
                 </div>
-              </div>
-              <div className="work-card-body">
-                <p className="work-card-label">Podcast</p>
-                <p className="work-card-title">Business Clinics — episode sample</p>
-                <p className="work-card-desc">Watch the episode on YouTube.</p>
+                <div className="work-card-body">
+                  <p className="work-card-label">Podcast</p>
+                  <p className="work-card-title">Business Clinics — episode sample</p>
+                  <p className="work-card-desc">Watch the episode on YouTube.</p>
+                </div>
               </div>
             </a>
 
@@ -406,10 +409,10 @@ function RateCard() {
                   <span>Save a screenshot as</span>
                   <span>images/work-social.jpg</span>
                 </div>
-              </div>
-              <div className="work-card-body">
-                <p className="work-card-label">Social media</p>
-                <p className="work-card-title">Instagram post / campaign</p>
+                <div className="work-card-body">
+                  <p className="work-card-label">Social media</p>
+                  <p className="work-card-title">Instagram post / campaign</p>
+                </div>
               </div>
             </a>
 
@@ -419,11 +422,11 @@ function RateCard() {
                   <span>Export from Canva as</span>
                   <span>images/work-design.jpg</span>
                 </div>
-              </div>
-              <div className="work-card-body">
-                <p className="work-card-label work-card-label-design">Design</p>
-                <p className="work-card-title">Design portfolio</p>
-                <p className="work-card-desc">A spread of designs I've created.</p>
+                <div className="work-card-body">
+                  <p className="work-card-label work-card-label-design">Design</p>
+                  <p className="work-card-title">Design portfolio</p>
+                  <p className="work-card-desc">A spread of designs I've created.</p>
+                </div>
               </div>
             </div>
           </div>
