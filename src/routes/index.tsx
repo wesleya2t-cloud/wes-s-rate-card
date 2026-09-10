@@ -402,7 +402,7 @@ function RateCard() {
 
             <a
               className="work-card"
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/elitek9andanimalcare"
               target="_blank"
               rel="noreferrer"
             >
@@ -418,18 +418,24 @@ function RateCard() {
               </div>
             </a>
 
-            <div className="work-card work-card-design">
-              <div className="work-thumb">
-                <div className="work-thumb-placeholder">
-                  <span>Export from Canva as</span>
-                  <span>images/work-design.jpg</span>
-                </div>
-                <div className="work-card-body">
-                  <p className="work-card-label work-card-label-design">Design</p>
-                  <p className="work-card-title">Design portfolio</p>
-                  <p className="work-card-desc">A spread of designs I've created.</p>
-                </div>
-              </div>
+<a
+  className="work-card work-card-design"
+  href="https://canva.link/argwwz1z8z4jddo"
+  target="_blank"
+  rel="noreferrer"
+>
+  <div className="work-thumb">
+    <div className="work-thumb-placeholder">
+      <span>Export from Canva as</span>
+      <span>images/work-design.jpg</span>
+    </div>
+  </div>
+  <div className="work-card-body">
+    <p className="work-card-label work-card-label-design">Design</p>
+    <p className="work-card-title">Design portfolio</p>
+    <p className="work-card-desc">A spread of designs I've created.</p>
+  </div>
+</a>
             </div>
           </div>
 
