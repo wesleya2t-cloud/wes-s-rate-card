@@ -24,7 +24,7 @@ export const Route = createFileRoute("/")({
 });
 
 const EMAIL = "handywesley@gmail.com";
-const WHATSAPP = "254700000000";
+const WHATSAPP = "254716134292";
 
 // Approximate rate as of Sept 2026. Rough guide for international clients
 // only — invoices are always issued in KES.
@@ -407,10 +407,7 @@ function RateCard() {
               rel="noreferrer"
             >
               <div className="work-thumb">
-                <div className="work-thumb-placeholder">
-                  <span>Save a screenshot as</span>
-                  <span>images/work-social.jpg</span>
-                </div>
+              <img src="/images/work-social.jpg" alt="Instagram post campaign" className="work-thumb-img" />
                 <div className="work-card-body">
                   <p className="work-card-label">Social media</p>
                   <p className="work-card-title">Instagram post / campaign</p>
@@ -424,11 +421,7 @@ function RateCard() {
   target="_blank"
   rel="noreferrer"
 >
-  <div className="work-thumb">
-    <div className="work-thumb-placeholder">
-      <span>Export from Canva as</span>
-      <span>images/work-design.jpg</span>
-    </div>
+ <img src="/images/work-design.jpg" alt="Design portfolio sample" className="work-thumb-img" />
   </div>
   <div className="work-card-body">
     <p className="work-card-label work-card-label-design">Design</p>
