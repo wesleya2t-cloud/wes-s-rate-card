@@ -408,6 +408,7 @@ function RateCard() {
             >
               <div className="work-thumb">
               <img src="/images/work-social.jpg" alt="Instagram post campaign" className="work-thumb-img" />
+                </div>
                 <div className="work-card-body">
                   <p className="work-card-label">Social media</p>
                   <p className="work-card-title">Instagram post / campaign</p>
@@ -421,6 +422,7 @@ function RateCard() {
   target="_blank"
   rel="noreferrer"
 >
+   <div className="work-thumb">
  <img src="/images/work-design.jpg" alt="Design portfolio sample" className="work-thumb-img" />
   </div>
   <div className="work-card-body">
