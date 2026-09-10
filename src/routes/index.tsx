@@ -399,22 +399,20 @@ function RateCard() {
     <p className="work-card-desc">Watch the episode below.</p>
   </div>
 </div>
-
-            <a
-              className="work-card"
-              href="https://www.instagram.com/elitek9andanimalcare"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="work-thumb">
-              <img src="/images/work-social.jpg" alt="Instagram post campaign" className="work-thumb-img" />
-                </div>
-                <div className="work-card-body">
-                  <p className="work-card-label">Social media</p>
-                  <p className="work-card-title">Instagram post / campaign</p>
-                </div>
-              </div>
-            </a>
+<a
+  className="work-card"
+  href="https://www.instagram.com/elitek9andanimalcare"
+  target="_blank"
+  rel="noreferrer"
+>
+  <div className="work-thumb">
+    <img src="/images/work-social.jpg" alt="Instagram post campaign" className="work-thumb-img" />
+  </div>
+  <div className="work-card-body">
+    <p className="work-card-label">Social media</p>
+    <p className="work-card-title">Instagram post / campaign</p>
+  </div>
+</a>
 
 <a
   className="work-card work-card-design"
@@ -422,8 +420,8 @@ function RateCard() {
   target="_blank"
   rel="noreferrer"
 >
-   <div className="work-thumb">
- <img src="/images/work-design.jpg" alt="Design portfolio sample" className="work-thumb-img" />
+  <div className="work-thumb">
+    <img src="/images/work-design.jpg" alt="Design portfolio sample" className="work-thumb-img" />
   </div>
   <div className="work-card-body">
     <p className="work-card-label work-card-label-design">Design</p>
@@ -431,7 +429,6 @@ function RateCard() {
     <p className="work-card-desc">A spread of designs I've created.</p>
   </div>
 </a>
-
           <div className="currency-toggle">
             <span className="currency-toggle-label">Show prices in:</span>
             <div className="currency-pills">
