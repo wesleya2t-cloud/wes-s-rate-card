@@ -379,56 +379,58 @@ function RateCard() {
           <h2 className="work-title">Recent work</h2>
           <p className="work-sub">A few things I've produced and managed.</p>
           <div className="work-grid">
-          <div className="work-card">
-            
-  <div className="work-thumb">
-    <iframe
-      width="100%"
-      height="100%"
-      src="https://www.youtube.com/embed/7cVgFu7wgt0"
-      title="Business Clinics episode"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowFullScreen
-      style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
-    ></iframe>
-  </div>
-  <div className="work-card-body">
-    <p className="work-card-label">Podcast</p>
-    <p className="work-card-title">Business Clinics — episode sample</p>
-    <p className="work-card-desc">Watch the episode below.</p>
-  </div>
-</div>
-<a
-  className="work-card"
-  href="https://www.instagram.com/elitek9andanimalcare"
-  target="_blank"
-  rel="noreferrer"
->
-  <div className="work-thumb">
-    <img src="/images/work-social.jpg" alt="Instagram post campaign" className="work-thumb-img" />
-  </div>
-  <div className="work-card-body">
-    <p className="work-card-label">Social media</p>
-    <p className="work-card-title">Instagram post / campaign</p>
-  </div>
-</a>
+            <div className="work-card">
+              <div className="work-thumb">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/7cVgFu7wgt0"
+                  title="Business Clinics episode"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
+                ></iframe>
+              </div>
+              <div className="work-card-body">
+                <p className="work-card-label">Podcast</p>
+                <p className="work-card-title">Business Clinics — episode sample</p>
+                <p className="work-card-desc">Watch the episode below.</p>
+              </div>
+            </div>
 
-<a
-  className="work-card work-card-design"
-  href="https://canva.link/argwwz1z8z4jddo"
-  target="_blank"
-  rel="noreferrer"
->
-  <div className="work-thumb">
-    <img src="/images/work-design.jpg" alt="Design portfolio sample" className="work-thumb-img" />
-  </div>
-  <div className="work-card-body">
-    <p className="work-card-label work-card-label-design">Design</p>
-    <p className="work-card-title">Design portfolio</p>
-    <p className="work-card-desc">A spread of designs I've created.</p>
-  </div>
-</a>
+            <a
+              className="work-card"
+              href="https://www.instagram.com/elitek9andanimalcare"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="work-thumb">
+                <img src="/images/work-social.jpg" alt="Instagram post campaign" className="work-thumb-img" />
+              </div>
+              <div className="work-card-body">
+                <p className="work-card-label">Social media</p>
+                <p className="work-card-title">Instagram post / campaign</p>
+              </div>
+            </a>
+
+            <a
+              className="work-card work-card-design"
+              href="https://canva.link/argwwz1z8z4jddo"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="work-thumb">
+                <img src="/images/work-design.jpg" alt="Design portfolio sample" className="work-thumb-img" />
+              </div>
+              <div className="work-card-body">
+                <p className="work-card-label work-card-label-design">Design</p>
+                <p className="work-card-title">Design portfolio</p>
+                <p className="work-card-desc">A spread of designs I've created.</p>
+              </div>
+            </a>
+          </div>
+
           <div className="currency-toggle">
             <span className="currency-toggle-label">Show prices in:</span>
             <div className="currency-pills">
@@ -450,7 +452,6 @@ function RateCard() {
             </span>
           </div>
         </div>
-         </div>
       </section>
 
       <section className="pillar">
