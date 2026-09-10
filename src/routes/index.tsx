@@ -379,24 +379,26 @@ function RateCard() {
           <h2 className="work-title">Recent work</h2>
           <p className="work-sub">A few things I've produced and managed.</p>
           <div className="work-grid">
-            <a
-              className="work-card"
-              href="https://www.youtube.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="work-thumb">
-                <div className="work-thumb-placeholder">
-                  <span>Save a screenshot as</span>
-                  <span>images/work-podcast.jpg</span>
-                </div>
-                <div className="work-card-body">
-                  <p className="work-card-label">Podcast</p>
-                  <p className="work-card-title">Business Clinics — episode sample</p>
-                  <p className="work-card-desc">Watch the episode on YouTube.</p>
-                </div>
-              </div>
-            </a>
+          <div className="work-card">
+            
+  <div className="work-thumb">
+    <iframe
+      width="100%"
+      height="100%"
+      src="https://www.youtube.com/embed/7cVgFu7wgt0"
+      title="Business Clinics episode"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
+    ></iframe>
+  </div>
+  <div className="work-card-body">
+    <p className="work-card-label">Podcast</p>
+    <p className="work-card-title">Business Clinics — episode sample</p>
+    <p className="work-card-desc">Watch the episode below.</p>
+  </div>
+</div>
 
             <a
               className="work-card"
