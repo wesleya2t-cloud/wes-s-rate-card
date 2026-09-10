@@ -135,6 +135,7 @@
 }
 .rc .work-card {
   display: block;
+  position: relative;
   text-decoration: none;
   color: var(--text);
 }
