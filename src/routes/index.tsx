@@ -453,6 +453,7 @@ function RateCard() {
             </span>
           </div>
         </div>
+         </div>
       </section>
 
       <section className="pillar">
