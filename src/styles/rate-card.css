@@ -43,9 +43,6 @@
     max-width: 1000px;
     padding: 0 40px;
   }
-  .rc .work-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 /* gentle entrance */
