@@ -884,3 +884,7 @@ a.rc .work-card:hover .work-thumb,
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.work-card-desc{
+   margin-bottom: 24px;
+}
