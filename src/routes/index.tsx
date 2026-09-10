@@ -126,7 +126,7 @@ const ADDONS: Addon[] = [
     max: 8000,
     price: 6500,
   },
-  { id: "web", label: "Website design", min: 40000, max: 80000, price: 60000 },
+  { id: "web", label: "Website design", min: 20000, max: 150000, price: 60000 },
 ];
 
 function CartIcon() {
