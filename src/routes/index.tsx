@@ -436,8 +436,6 @@ function RateCard() {
     <p className="work-card-desc">A spread of designs I've created.</p>
   </div>
 </a>
-            </div>
-          </div>
 
           <div className="currency-toggle">
             <span className="currency-toggle-label">Show prices in:</span>
